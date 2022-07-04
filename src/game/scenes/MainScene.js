@@ -139,7 +139,7 @@ export default ({
       frameQuantity: 64
     })
 
-    randomRectangle = new Phaser.Geom.Rectangle(80, 35, 55, 120); //this.physics.world.bounds
+    randomRectangle = new Phaser.Geom.Rectangle(80, 40, 55, 120); //this.physics.world.bounds
     Phaser.Actions.RandomRectangle(rainDropPool.getChildren(), randomRectangle);
 
     bindToWeatherGroup(weatherGroups, [RAIN, THUNDER], rainDropPool);

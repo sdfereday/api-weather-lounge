@@ -9,4 +9,6 @@ const query = async url => {
 };
 
 export const fetchWeather = async ({ lat, lon }) =>
-  query(`/.netlify/functions/location?lat=${lat}&lon=${lon}`);
+  query(
+    `/.netlify/functions/location?lat=${lat}&lon=${lon}&apikey=def425e10a3919d888ddcdff2b1eafd3`
+  );

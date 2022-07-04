@@ -24,11 +24,11 @@ export default ({
       <div className="ui-gradient bg-gradient-to-t from-slate-800">
         <div className="ui-root w-[680px]">
           {children}
-          {weatherData ?
+          {/* {weatherData ?
             <div className="text-center">
               <img src={`http://openweathermap.org/img/w/${weatherData.icon}.png`} className="inline-block" />
               <p>Current weather in {weatherData.location} appears to be {weatherData.description}.</p></div>
-            : <p>Getting the weather...</p>}
+            : <p>Getting the weather...</p>} */}
           <p>Change the weather to:</p>
           <select className="text-black mb-6" onChange={manualWeatherChange} value={currentWeatherSelect}>
             <option value={"default"} disabled>

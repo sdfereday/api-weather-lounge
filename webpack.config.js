@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 const path = require("path");
 const fs = require("fs");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -17,7 +20,7 @@ process.env.NODE_ENV = "development";
 
 module.exports = {
   // Environment mode
-  mode: "production",
+  //mode: "production",
   //mode: "development",
 
   // Entry point of app

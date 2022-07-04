@@ -6,7 +6,6 @@ export default ({
   weatherData,
   onManualWeatherChange = () => { }
 }) => {
-
   const [currentWeatherSelect, setCurrentWeatherSelect] = useState("default");
   const [weatherHex, setWeatherHex] = useState(weatherToHex[RAIN]);
 

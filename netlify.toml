@@ -1,4 +1,4 @@
 [build]
   functions = "functions"
-  publish = "dist"
+  publish = "dist/"
   command = "echo 'No build here yet!'"

@@ -10,5 +10,5 @@ const query = async url => {
 
 export const fetchWeather = async ({ lat, lon }) =>
   query(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&apikey=def425e10a3919d888ddcdff2b1eafd3`
+    `https://open-weather-proxy.herokuapp.com/weather?lat=${lat}&lon=${lon}`
   );
